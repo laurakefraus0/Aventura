@@ -1,5 +1,30 @@
 body{
     background-color: rgb(164, 145, 182);
-    color:rgb(122, 122, 102)
-    font-family: arial
-}
+    color:rgb(122, 122, 102);
+    font-family: arial, helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    }
+    button{
+    background: rgb(180, 113, 113);
+    color: rgb(233, 187, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+     .passo{
+     display: none;
+    
+    }
+    .passo.ativo{
+     display: block;
+    }
+     main{
+     text-align: center;
+     max-width: 90%;
+     }
+     img{
+        max-width: 90%;
+     }
+   
